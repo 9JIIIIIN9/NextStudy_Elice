@@ -4,8 +4,8 @@ import Logo from "../../public/elliceLogo.png"; // 로고 이미지 경로
 
 export default function Home() {
   return (
-    <div className="w-full h-16 bg-white justify-center items-center flex border-b border-solid border-gray-150 fixed top-0 left-0 z-10">
-      <div className="w-[1280px] justify-between items-center flex border-none">
+    <div className="w-full h-16 bg-white justify-center items-center flex fixed top-0 left-0 z-10">
+      <div className="w-[1280px]  items-center flex border-none">
         <div className="w-[600px] flex flex-row items-center">
           <div className="w-24 h-9 m-2 relative">
             <Image
