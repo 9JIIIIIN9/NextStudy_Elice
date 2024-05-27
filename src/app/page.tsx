@@ -1,10 +1,16 @@
+"use client";
+
 import Header from "@/components/header";
+import Scrolling from "@/components/page2/InfiniteScrolling";
+import Page1 from "@/components/page1/page";
 import Image from "next/image";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-30">
+    <main className="flex  flex-col items-center justify-center">
       <Header />
-      <h1>Welcome to my Next.js app!</h1>
+      <Page1 />
+      <Scrolling />
     </main>
   );
 }
