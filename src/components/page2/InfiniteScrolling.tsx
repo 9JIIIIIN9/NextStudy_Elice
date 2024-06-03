@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import styled, { keyframes } from "styled-components";
-import Video from "next-video";
 import NC from "../../../public/nc.webp";
 import Posco from "../../../public/posco.webp";
 import LG from "../../../public/lg_ensol.webp";

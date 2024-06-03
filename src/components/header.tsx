@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Logo from "../../public/elliceLogo.png"; // 로고 이미지 경로
 import Arrow from "../../public/arrow.svg";
+import Link from "next/link";
 export default function Home() {
   return (
     <div className="w-full h-16 bg-white justify-center items-center flex fixed top-0 left-0 z-10 border-2 border-gray-100 ">
@@ -34,8 +35,13 @@ export default function Home() {
               <Image src={Arrow} alt="화살표" />
             </button>
           </ul>
-          <div className=" h-15 relative">
-            <button className="bg-[#7353ea] w-20 h-8  ml-96 rounded-md text-sm text-white">
+          <div className=" h-15 relative flex flex-row">
+            <Link href="/accounts/signin">
+              <button className="bg-[#f5f5f5] text-[#191f28] ml-96 mr-8 w-20 h-8 rounded-md text-sm text-white">
+                로그인
+              </button>
+            </Link>
+            <button className="bg-[#7353ea] w-20 h-8   rounded-md text-sm text-white">
               상담 요청
             </button>
           </div>
